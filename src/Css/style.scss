@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+}
+*:focus{
+    outline: none;
+}
+
+body{
+    background-color: #EDD8C4;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.57)), url("https://source.unsplash.com/1600x900/?mountain,cars,tain");
+    padding: 2% 5%;
+}
+.welcome-content{
+    margin-top: 6%;
+    text-align: center;
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    h3{
+        margin: 1% 0%;
+    }
+    h2{
+        margin: 1%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 42px;
+        color: #ffff;
+    }
+    input{
+        margin: 1%;
+        padding: 6px 10px;
+        width: 170px;
+        text-align: center;
+        border-radius: 6px;
+        font-size: 19px;
+        font-family:Arial, Helvetica, sans-serif;
+        word-spacing: -10;
+        transition-duration: 0.6s;
+        font-weight: 300;
+        background-color: #f2f2f2a1;
+        &:focus-visible{
+            outline: none;
+            background-color: #f2f2f2d0;
+        }
+        &:hover{
+            width: 214px;
+            transition-duration: 0.6s;
+        }
+    }
+    button{
+        background-color: rgb(29, 29, 29);
+        border: none;
+        padding: 6px 10px;   
+        cursor: pointer;
+        width: 120px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        color: #F6CA3D;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        border-radius: 8px;
+        transition-duration: 0.6s ease;
+        font-weight: 600;
+        &:hover{
+            box-shadow: none;
+            transition-duration: 0.6s;
+        }
+        
+    }
+}
+
+.Welcome-components{
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    line-height: 40px;
+    span{
+        color: #F6CA3D;
+    }
+    p{
+        color: #f65f3d;
+        font-size: 22px;
+    }
+    button{
+        margin-top: 10%;
+        background-color: rgb(29, 29, 29);
+        border: none;
+        padding: 6px 10px;   
+        cursor: pointer;
+        width: 150px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        color: #F6CA3D;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        border-radius: 8px;
+        transition-duration: 0.6s ease;
+        font-weight: 600;
+        &:hover{
+            box-shadow: none;
+            transition-duration: 0.6s;
+    
+            }    
+    }
+}
+
+#credit{
+    position: absolute;
+    bottom: 2%;
+    right:35%;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(192, 192, 192);
+    line-height: 30px;
+    span{
+        color: #F6CA3D;
+        transition-duration: 0.6s;
+        cursor: pointer;
+    }   
+    span:nth-child(even){
+        color: #f2f2f2;
+        animation: blink infinite 2s;
+        &:hover{
+            color: #F6CA3D;
+            transition-duration: 0.6s;
+        }
+    }
+    @keyframes blink {
+        0% {
+            opacity: 0.4;
+            color: #81f63d;
+        }
+        50%{
+            opacity: 0.8;
+            color: #f6f33d;
+        }
+        100% {
+            opacity: 1.0;
+            color: #f65f3d;
+        }
+    }
+}
+
+// Written by github: @03prashantpk
