@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 ### Image
 
-![](https://github.com/03prashantpk/03prashantpk/blob/main/assets/header.png)
+![](https://github.com/03prashantpk/pepassignmentone/blob/master/public/reco.gif)
 
 
 <center>
